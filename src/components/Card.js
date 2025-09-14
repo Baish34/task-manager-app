@@ -18,7 +18,6 @@ const Card = ({ task, index, listId, dispatch, searchQuery }) => {
     }
   };
 
-  // Highlight matching text
   const highlightText = (text, query) => {
     if (!query) return text;
     const regex = new RegExp(`(${query})`, 'gi');

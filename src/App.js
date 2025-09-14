@@ -55,7 +55,7 @@ function App() {
 
   return (
     <div className={`App ${theme === 'dark' ? 'dark' : ''} bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-white min-h-screen`}>
-      {/* Enhanced Theme Toggle Button - Made Responsive */}
+      {/* Enhanced Theme Toggle Button*/}
       <button
         onClick={toggleTheme}
         className="fixed top-4 sm:top-6 right-4 sm:right-6 z-50 bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 px-3 sm:px-4 py-2 rounded-lg font-medium transition-all hover:shadow-md flex items-center space-x-1 sm:space-x-2 text-sm sm:text-base"
